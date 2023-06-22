@@ -1,7 +1,7 @@
 import axios from "axios"
 import { useLocalStorage } from "../../hooks/localStorage"
 
-export const prefix = "veey"
+export const prefix = "mida"
 export const useClient = () => {
 
     const [creds] = useLocalStorage('credential')
